@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Darkones";
+    src: url(../Font/Darkones-Regular.ttf);
+}
+
+@font-face {
+    font-family: "LemonMilk";
+    src: url("../Font/LEMONMILK-Medium.otf");
+}
+
+body {
+    background-color: rgb(40, 46, 42);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.center_image_portfolio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(83, 255, 183);
+    background-image: url("https://img.freepik.com/fotos-gratis/homem-desfrutando-de-uma-xicara-de-cha-matcha_23-2150215073.jpg?semt=ais_hybrid&w=740");
+    background-repeat: no-repeat;
+    background-position: center -10px;
+    background-size: auto;
+
+    margin-bottom: 30px;
+    width: 450px;
+    height: 550px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Titulo {
+    font-family: LemonMilk;
+    font-size: 30pt;
+    color: white;
+}
+
+.Header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(107, 204, 139);
+    margin-left: -200px;
+    transform: translateY(300px);
+}
+
+.Showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: red;
+}
+
+.Image1 {
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+}
