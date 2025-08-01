@@ -92,12 +92,21 @@ body {
     text-align: center;
     margin: 30px;
 }
-.Image1 {
+
+.image_content {
     padding: 2px;
     background-color: white;
+    background-size: 370px 370px;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 370px;
     margin: 5px;
     height: 370px;
+}
+.image_content h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 10px;
 }
 
 .Services {
