@@ -45,8 +45,9 @@ body {
     background-position: center -10px;
     background-size: auto;
 
-    margin-bottom: 80px;
-    width: 400px;
+    margin-bottom: 60px;
+    min-width: 300px;
+    max-width: 400px;
     height: 480px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -83,11 +84,11 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: red;
+    background-color: #526b46;
 }
 
 .Image1 {
-    padding: 5px;
     width: 380px;
+    margin: 5px;
     height: 380px;
 }

@@ -44,7 +44,7 @@
     
     50% {
         opacity: 100%;
-        transform: translateX(30px) rotateZ(-30deg);
+        transform: translateX(40px) rotateZ(-30deg);
     }
 
     60% {
@@ -54,7 +54,7 @@
     
     70% {
         opacity: 100%;
-        transform: translateX(30px) rotateZ(-30deg);
+        transform: translateX(40px) rotateZ(-30deg);
     }
 
     80% {
@@ -64,7 +64,7 @@
 
     90% {
         opacity: 100%;
-        transform: translateX(30px) rotateZ(-30deg);
+        transform: translateX(40px) rotateZ(-30deg);
     }
 
     100% {
