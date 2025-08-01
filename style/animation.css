@@ -1,0 +1,74 @@
+@keyframes ledAnima {
+    0% {
+
+    }
+
+    50% {
+        opacity: 100%;
+        transform: translateX(240px) translateY(-270px) rotateZ(0deg);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(240px) translateY(-270px) rotateZ(45deg);
+    }
+}
+
+@keyframes Surgir {
+    0% {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    50% {
+        
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes Surgir2 {
+    0% {
+        opacity: 0%;
+        transform: translateX(-30px);
+    }
+
+    30% {
+        opacity: 100%;
+        transform: translateX(30px);
+    }
+
+    
+    50% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(-30deg);
+    }
+
+    60% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(0deg);
+    }
+    
+    70% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(-30deg);
+    }
+
+    80% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(0deg);
+    }
+
+    90% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(-30deg);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(30px) rotateZ(0deg);
+    }
+}
