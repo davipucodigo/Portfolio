@@ -10,7 +10,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(28, 40, 28);
+    background-color: #2d432f;
 }
 * {
     padding: 0px;
@@ -34,7 +34,6 @@ body {
 .contato:hover {
     transform: translateY(-8px);
     transition: 1s;
-    background-color: rgb(0, 255, 102);
 }
 
 .center_image_portfolio {
@@ -104,7 +103,7 @@ body {
 .Services {
     padding-top: 30px;
     background-color: #208f3e;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 #TServices {
@@ -117,7 +116,7 @@ body {
 .ServicesN {
     padding-top: 30px;
     background-color: #20348f;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 #TServicesN {
