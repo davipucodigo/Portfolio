@@ -41,7 +41,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(83, 255, 183);
-    background-image: url(../images/fundo2.jpg);
+    background-image: url(../images/davifundo.png);
     background-repeat: no-repeat;
     background-position: center -200px;
     background-size: 400px;
@@ -94,6 +94,9 @@ body {
 }
 
 .image_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 2px;
     background-color: white;
     background-size: 370px 370px;
@@ -105,7 +108,15 @@ body {
 }
 .image_content h3 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.758);
+    padding: 10px;
+}
+
+.image_content h2 {
+    color: white;
+    text-align: end;
+    background-color: rgba(13, 91, 59, 0.919);
+    font-size: 15pt;
     padding: 10px;
 }
 
